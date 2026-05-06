@@ -1,82 +1,82 @@
 const pitanja = [
     {
-        tekst: "Što mislite o ubojstvu starice lihvarke Aljone Ivanovne?",
+        tekst: "Što mislite o ubojstvu stare lihvarice Aljone Ivanovne?",
         opcije: [
-            { tekst: "To nije zločin; njezina smrt spasit će stotine mladih života.", lik: "raskoljnikov" },
-            { tekst: "To je strašan grijeh! Nitko nema pravo oduzeti ljudski život.", lik: "sonja" },
-            { tekst: "Zločin je društveno nekoristan i loš za osobnu reputaciju.", lik: "luzin" }
+            { tekst: "To nije zločin ako znači da će stotine drugih ljudi imati bolji život.", lik: "raskoljnikov" },
+            { tekst: "To je užasno! Ne želim ni pomišljati o tome.", lik: "sonja" },
+            { tekst: "Mislim da je zločin društveno nekoristan i moralno neprihvatljiv.", lik: "luzin" }
         ]
     },
     {
-        tekst: "Kako biste reagirali da u kafiću sretnete pijanog i propalog Marmeladova?",
+        tekst: "Kako biste reagirali da u kafiću naletite na pijanog i propalog Marmeladova?",
         opcije: [
-            { tekst: "Saslušat ću njegovu ispovijest i dati mu zadnji novac za obitelj.", lik: "raskoljnikov" },
-            { tekst: "Pokušat ću mu konkretno pomoći, otpratiti ga kući i trijezniti ga.", lik: "razumihin" },
-            { tekst: "Promatrat ću ga s gađenjem; sam je kriv za svoju propast.", lik: "luzin" }
+            { tekst: "Saslušat ću ga i, ako treba, dati mu svoj novac za njegovu obitelj.", lik: "raskoljnikov" },
+            { tekst: "Pomogao/la bih mu, da se ne bi slučajno ozlijedio ili nešto napravio.", lik: "razumihin" },
+            { tekst: "Gadio bi mi se, ne bih ga htio niti gledati, to je odurno.", lik: "luzin" }
         ]
     },
     {
-        tekst: "Sestra se želi udati za bogatog, ali bezdušnog čovjeka kako bi vas financijski spasila. Vaša reakcija?",
+        tekst: "Sestra se želi udati za bogatog, ali užasnog i bezvrijednog čovjeka kako bi vas financijski spasila. Vaša reakcija?",
         opcije: [
-            { tekst: "Nikada! Radije ću gladovati nego dopustiti takvu žrtvu.", lik: "raskoljnikov" },
-            { tekst: "Ako je to jedini spas za obitelj, moramo prihvatiti tu sudbinu.", lik: "sonja" },
-            { tekst: "To je razumna odluka kojom svi dobivaju ono što im treba.", lik: "luzin" }
+            { tekst: "Nema šanse, samo zato što ima novaca ne znači da bi se trebala udati za njega.", lik: "raskoljnikov" },
+            { tekst: "Ako je to potrebno da spasi obitelj, razumijem to.", lik: "sonja" },
+            { tekst: "S time bih se složio/la, ipak ćemo dobiti novac pa nije tako loše.", lik: "luzin" }
         ]
     },
     {
         tekst: "Kako se nosite s osjećajem krivnje nakon što učinite nešto loše?",
         opcije: [
-            { tekst: "Krivnja ne postoji ako je cilj bio viši; muči me samo vlastita slabost.", lik: "raskoljnikov" },
-            { tekst: "Prihvaćam patnju, molim za oprost i vjerujem u iskupljenje.", lik: "sonja" },
-            { tekst: "Krivnja je besmislena, ionako ništa na ovom svijetu nema stvarnu vrijednost.", lik: "svidrigajlov" }
+            { tekst: "Ne vjerujem u krivnju ako s time dobim nešto što želim, ili još bolje ostali beneficiraju od toga.", lik: "raskoljnikov" },
+            { tekst: "Prihvaćam da sam napravio/la grešku i tražim oprost.", lik: "sonja" },
+            { tekst: "To nema smisla, zašto bih se uopće osjećao loše.", lik: "svidrigajlov" }
         ]
     },
     {
-        tekst: "Istražitelj Porfiri Petrovič vas sumnjiči za zločin. Kako se ponašate tijekom ispitivanja?",
+        tekst: "Istražitelj Porfiri Petrovič Vas sumnjiči za zločin. Kako se ponašate tijekom ispitivanja?",
         opcije: [
-            { tekst: "Pokušat ću ga nadmudriti hladnom logikom i teorijom.", lik: "raskoljnikov" },
-            { tekst: "Suočit ću se s njim otvoreno i braniti prijatelja pod svaku cijenu.", lik: "razumihin" },
-            { tekst: "Ignorirat ću njegove igrice i gledati kako da izvučem vlastitu korist.", lik: "luzin" }
+            { tekst: "Pokušao/la bih ga nadmudriti i uvjeriti da nisam krivac.", lik: "raskoljnikov" },
+            { tekst: "Rekao/la bih istinu i pokušao/la bih razvedriti situaciju.", lik: "razumihin" },
+            { tekst: "Ignorirao/la bih njegovo optuživanje i pokušao/la bih se izbaviti iz te situacije.", lik: "luzin" }
         ]
     },
     {
-        tekst: "Što za vas predstavlja Biblija i priča o Lazarovom uskrsnuću?",
+        tekst: "Što za Vas predstavlja Biblija i priča o Lazarovom uskrsnuću?",
         opcije: [
-            { tekst: "To je jedina nada za spasenje i dokaz da svaka duša može oživjeti.", lik: "sonja" },
-            { tekst: "Zanimljiva priča, ali u stvarnom svijetu bolesni i mrtvi ne ustaju.", lik: "svidrigajlov" },
-            { tekst: "Moralna bajka, važna za neuke ljude, ali beskorisna u praksi.", lik: "luzin" }
+            { tekst: "Ona za mene predstavlja nadu za ovaj svijet.", lik: "sonja" },
+            { tekst: "Zanimljiva je, ali me uopće ne interesira.", lik: "svidrigajlov" },
+            { tekst: "Ne interesira me baš, nemam nikakvu korist od nje.", lik: "luzin" }
         ]
     },
     {
         tekst: "Najbolji prijatelj se zatvorio u sobu, bolestan je i ponaša se sumnjivo. Kako mu pomažete?",
         opcije: [
-            { tekst: "Neću ga ostaviti samog; donijet ću mu hranu, liječnika i paziti na njega.", lik: "razumihin" },
-            { tekst: "Bit ću uz njega u tišini i moliti se za njegov umorni duh.", lik: "sonja" },
-            { tekst: "Pustit ću ga na miru, svatko se mora sam nositi sa svojim ludilom.", lik: "svidrigajlov" }
+            { tekst: "Ostao/la bih uz njega, pozvao/la bih mu liječnika i nudio/la mu svoju podršku.", lik: "razumihin" },
+            { tekst: "Bio/la bih uz njega i pokušao/la bih mu pomoći.", lik: "sonja" },
+            { tekst: "Pustio/la bih ga na miru, ne bih se baš zamarao s time, svi su kad tad bolesni.", lik: "svidrigajlov" }
         ]
     },
     {
         tekst: "Koja je Vaša vizija sretnog i uspješnog života?",
         opcije: [
-            { tekst: "Završiti studij, pošteno raditi i pomagati onima koje volim.", lik: "razumihin" },
-            { tekst: "Steći ugled, bogatstvo i osigurati visok društveni status.", lik: "luzin" },
-            { tekst: "Živjeti slobodno, bez ikakvih moralnih i društvenih okova.", lik: "svidrigajlov" }
+            { tekst: "Pronaći dobar posao, ostvariti stabilan život i pronaći smisao u svakodnevnom životu.", lik: "razumihin" },
+            { tekst: "Biti na visokoj socijalnoj razini gdje me svi poštuju i služe.", lik: "luzin" },
+            { tekst: "Biti slobodan, bez da marim za nekim pravilima i moralima.", lik: "svidrigajlov" }
         ]
     },
     {
         tekst: "Kako gledate na Sibir i kaznu prisilnog rada?",
         opcije: [
-            { tekst: "Kao priliku za potpuno duhovno čišćenje i novi početak života.", lik: "sonja" },
-            { tekst: "Kao nepravedan poraz moje volje i dokaz da nisam uspio.", lik: "raskoljnikov" },
-            { tekst: "Radije bih si oduzeo život nego dopustio da me strpaju u okove.", lik: "svidrigajlov" }
+            { tekst: "Malo je strašan, no vidim da bi osoba ondje mogla dosta psihički napredovati.", lik: "sonja" },
+            { tekst: "Vidim to kao poraz i bezvezan zakon koji, se iskreno, ne treba pratiti.", lik: "raskoljnikov" },
+            { tekst: "Radije bih pobjegao/la i započeo/la nov život.", lik: "svidrigajlov" }
         ]
     },
     {
         tekst: "Netko Vas lažno optuži za krađu. Kako reagirate?",
         opcije: [
-            { tekst: "Planut ću od bijesa i agresivno dokazati istinu i raskrinkati lažljivca.", lik: "razumihin" },
-            { tekst: "Plakat ću i trpjeti nepravdu, vjerujući da će istina sama izaći na vidjelo.", lik: "sonja" },
-            { tekst: "Iskoristit ću tu situaciju kako bih pokazao svoju moralnu nadmoć.", lik: "svidrigajlov" }
+            { tekst: "Ne bih to mogao/la trpjeti, našao bih način da dokažem da nisam krivac.", lik: "razumihin" },
+            { tekst: "Rasplakao/la bih se i nadao da će se istina sama otkriti.", lik: "sonja" },
+            { tekst: "Poludio/la bih na njega, ne može me samo tako optuživati.", lik: "svidrigajlov" }
         ]
     }
 ];
