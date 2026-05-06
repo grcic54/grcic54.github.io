@@ -1,4 +1,3 @@
-// PITANJA (10 balansiranih pitanja izravno vezanih za radnju i motive romana)
 const pitanja = [
     {
         tekst: "Što mislite o ubojstvu starice lihvarke Aljone Ivanovne?",
