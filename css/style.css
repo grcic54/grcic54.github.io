@@ -1,0 +1,81 @@
+header{
+
+color:white;
+}
+
+
+body{
+background: #9885f4;
+color: white;
+}
+
+article{
+
+
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(91, 27, 130, 0.408);
+    border-radius: 15px;
+}
+
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#naslov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: px;
+    font-size: 3em;
+    text-shadow: 1px 1.5px;
+     background-color: rgba(81, 0, 168, 0.408);
+    border-radius: 15px;
+}
+
+#linkovi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+    padding: 1em;
+    
+    margin: 2em;
+    font-size: large;
+    color:rgb(87, 16, 149);
+    text-shadow: 1px 1px;
+    background-color: rgba(255, 255, 255, 0.408);
+    border-radius: 15px;
+    
+}
+
+#naslovB{
+    font-weight: bold;
+    font-size: 2em;
+padding: 1em;
+text-shadow: 1px 1.5px;
+
+
+}
+
+#tekstB{
+     padding-bottom: 30px;
+    margin: 30px;
+}
+
+#slikice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 3em;
+    margin: 1em;
+    background-color: rgba(255, 255, 255, 0.408);
+    border-radius: 15px;
+}
+
+#kontaktT{
+    padding: 1em;
+}
